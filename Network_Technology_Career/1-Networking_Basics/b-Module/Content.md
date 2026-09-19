@@ -47,4 +47,4 @@
   * Este equipo combina un *switch* para hosts por cable y un punto de acceso (AP) para dispositivos inalámbricos, encargándose además de la seguridad y el direccionamiento IP.
 
 * **Métodos de acceso principales:** 
-  * Los más comunes son **cable** y **DSL**, complementados por opciones de telefonía celular, satelital y fija y tmb fibra óptica.
+  * Los más comunes son **cable** y **DSL**, complementados por opciones de telefonía celular, satelital y fija y tambien fibra óptica.
