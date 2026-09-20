@@ -1,4 +1,4 @@
-# Apuntes del Curso de Cisco
+
 
 ## 1. Introducción a las Redes
 El internet es la red de redes; es el entorno invisible construido por una gran cantidad de redes que hacen posible el uso de servicios en línea. Existen redes locales de todo tipo de tamaños. Aquellas instaladas en oficinas o hogares se conocen como **SOHO** (*Small Office/Home Office*), permitiendo compartir recursos entre usuarios locales.

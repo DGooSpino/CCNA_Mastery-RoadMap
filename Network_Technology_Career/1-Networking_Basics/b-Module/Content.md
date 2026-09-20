@@ -1,4 +1,4 @@
-# Resumen Detallado del Módulo: Componentes, Redes P2P y Conectividad ISP
+
 
 ## 1. Componentes de la Red y Hardware
 
