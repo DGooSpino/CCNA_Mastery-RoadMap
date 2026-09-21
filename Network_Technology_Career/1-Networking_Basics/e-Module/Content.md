@@ -33,7 +33,7 @@ Creado por la ISO para el diseño, especificación y resolución de problemas de
 * **7 - Aplicación:** Comunicaciones de proceso a proceso.
 * **6 - Presentación:** Representación común de los datos transferidos.
 * **5 - Sesión:** Organiza el diálogo y gestiona el intercambio de datos.
-* **4 - Transporte:** Segmenta, transfiere y reensambla los datos.
+* **4 - Transporte:** Segmenta, transfiere y reensambla los datos().
 * **3 - Red:** Intercambio de datos individuales entre dispositivos finales identificados.
 * **2 - Enlace de datos:** Intercambio de tramas de datos a través de un medio común.
-* **1 - Físico:** Medios mecánicos, eléctricos y funcionales para transmitir bits.
+* **1 - Físico:** Medios mecánicos, eléctricos y funcionales para transmitir bits(Last_segment).
