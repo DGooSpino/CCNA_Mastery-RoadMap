@@ -1,5 +1,3 @@
-# Resumen: Módulo Ethernet y Capa de Enlace de Datos
-
 ## 1. Encapsulación y la Trama de Ethernet
 
 El proceso que consiste en colocar un mensaje dentro de otro formato de mensaje se denomina **encapsulamiento**. Cuando el destinatario revierte este proceso y quita la carta del sobre se produce la **desencapsulación** del mensaje. De la misma manera en que una carta se encapsula en un sobre para la entrega, los mensajes de las computadoras también deben encapsularse bajo reglas de formato específicas para que puedan ser entregados y procesados.
