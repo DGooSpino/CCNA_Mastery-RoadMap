@@ -12,9 +12,7 @@
 * **Multidifusión (Multicast):** 
   * Envía un único paquete a un **grupo selecto de hosts suscritos**, reduciendo el tráfico de la red.
   * Utiliza el rango reservado de IPv4 de `224.0.0.0` a `239.255.255.255`. Los hosts suscritos procesan estos paquetes además de los de unidifusión.
-
 ---
-
 ## 2. Tipos de direcciones IPv4
 
 * **Direcciones públicas:** 
