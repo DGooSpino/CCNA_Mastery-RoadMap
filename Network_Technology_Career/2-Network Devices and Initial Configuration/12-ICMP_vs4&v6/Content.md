@@ -15,10 +15,21 @@
 
 * El comando **ping** envía solicitudes de eco a una dirección IP para comprobar la conectividad y medir el tiempo transcurrido entre el envío y la respuesta.
 * Se realizan tres tipos principales de pruebas de conectividad mediante ping:
-  * **Ping a loopback local:** Prueba la configuración interna del protocolo IP en el host.
-  * **Ping a la puerta de enlace predeterminada:** Confirma que la interfaz del enrutador local y el host están operativos en la red local.
-  * **Ping al host remoto:** Verifica la comunicación local, la puerta de enlace y la ruta de routers hacia el destino remoto.
+        * **Ping a loopback local:** Prueba la configuración interna del protocolo IP en el host.
+        * **Ping a la puerta de enlace predeterminada:** Confirma que la interfaz del enrutador local y el host están operativos en la red local.
+        * **Ping al host remoto:** Verifica la comunicación local, la puerta de enlace y la ruta de routers hacia el destino remoto.
 * La utilidad **traceroute** (`tracert`) muestra la lista de saltos (routers) a lo largo de una ruta para la solución de problemas.
 * Permite identificar en qué salto se genera un problema o restricción de seguridad analizando la última dirección que respondió.
 * Mide el tiempo de ida y vuelta (RTT) y utiliza un asterisco (*) para indicar un paquete perdido o no respondido.
 * Funciona manipulando el campo TTL en IPv4 (o Límite de Salto en IPv6) junto con los mensajes de ICMP Tiempo Excedido.
+
+
+      Para los mensajes ICMP de Destino Inalcanzable (Tipo 3), los códigos del 0 al 3 son los siguientes:
+
+      Código 0: Red inalcanzable (Network Unreachable) — El enrutador no tiene una ruta hacia la red de destino.
+
+      Código 1: Host inalcanzable (Host Unreachable) — El enrutador no puede comunicarse con el host de destino (a menudo debido a un problema en la red local o con la dirección física).
+
+      Código 2: Protocolo inalcanzable (Protocol Unreachable) — El protocolo de la capa de transporte especificado en el paquete no es compatible o no está disponible en el destino.
+
+      Código 3: Puerto inalcanzable (Port Unreachable) — El servicio o puerto específico de la capa de transporte (como UDP o TCP) está cerrado o inactivo en el host de destino.
